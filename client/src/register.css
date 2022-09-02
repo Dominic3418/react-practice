@@ -1,0 +1,58 @@
+.register{
+    margin-top: 0px;
+    height: calc(100vh - 70px);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background: linear-gradient(
+        rgb(255, 255, 255, 0.5),
+        rgb(255, 255, 255, 0.5)),
+ 
+        url('./Images/background2.jpg');
+    background-size: cover;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.registerTitle{
+    font-size: 50px;
+}
+.registerForm{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.registerForm>label{
+    margin: 10px 0;
+}
+.registerInput{
+    padding: 10px;
+    background-color: white;
+    border: none;
+}
+.registerButton{
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: rgb(236, 11, 97);
+    border: none;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+}
+.loginSection{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;  
+    margin-left: 50px; 
+    font-size: 15px; 
+}
+.loginRegisterButton{
+    position: absolute;
+    margin-top: 80px;
+    background-color: teal;
+    cursor: pointer;
+    border: none;
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+    width: 170px;
+}
